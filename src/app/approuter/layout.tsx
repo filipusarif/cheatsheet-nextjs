@@ -1,5 +1,4 @@
 "use client"
-
 import Navbar from "@/app/approuter/navbar"
 import { useState } from "react";
 

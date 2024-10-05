@@ -25,6 +25,11 @@ export default function Home() {
               Dynamic Router
             </li>
           </Link>
+          <Link href="/linknav">
+            <li>
+              Link & Navigation
+            </li>
+          </Link>
         </ul>
     </main>
   );

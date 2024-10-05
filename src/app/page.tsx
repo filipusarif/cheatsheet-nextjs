@@ -20,6 +20,11 @@ export default function Home() {
               SignIn
             </li>
           </Link>
+          <Link href="/dynamicrouter">
+            <li>
+              Dynamic Router
+            </li>
+          </Link>
         </ul>
     </main>
   );

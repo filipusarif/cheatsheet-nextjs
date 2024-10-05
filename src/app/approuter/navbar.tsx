@@ -2,7 +2,9 @@ import Link from 'next/link'
 
 export default function Navbar(){
     return <nav className="flex w-screen py-3 px-20 justify-between items-center bg-blue-500">
-        <a href="/">Cheetsheet</a>
+        <Link href="/">
+            <p>Cheetsheet</p>
+        </Link>
         <ul className="flex gap-3 ">
             <Link href="/approuter">
                 <li>AppRouter</li>

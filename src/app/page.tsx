@@ -30,6 +30,16 @@ export default function Home() {
               Link & Navigation
             </li>
           </Link>
+          <Link href="/linknav">
+            <li>
+              Link & Navigation
+            </li>
+          </Link>
+          <Link href="/fetch/service">
+            <li>
+              fetch
+            </li>
+          </Link>
         </ul>
     </main>
   );

@@ -40,6 +40,11 @@ export default function Home() {
               cache
             </li>
           </Link>
+          <Link href="/loadingError/service">
+            <li>
+              loading & error
+            </li>
+          </Link>
         </ul>
     </main>
   );

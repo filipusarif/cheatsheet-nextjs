@@ -45,6 +45,11 @@ export default function Home() {
               loading & error
             </li>
           </Link>
+          <Link href="/pararell/dashboard">
+            <li>
+              pararell routes
+            </li>
+          </Link>
         </ul>
     </main>
   );

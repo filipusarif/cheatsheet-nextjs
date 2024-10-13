@@ -6,7 +6,6 @@ import { getData } from "@/services/product";
 export default async function BlogPage(props : BlogPageProps){
     const { params } = props
     const datas = await getData('http://localhost:3000/api/product');
-    console.log(datas.data)
     return <main className="w-screen min-h-screen grid place-items-center">
         {/* <Link href="/">
             <h1>{params.slug ? "Content Product Page, back to home?":"Product Page, back to home?"}</h1>

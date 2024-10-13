@@ -50,6 +50,11 @@ export default function Home() {
               pararell routes
             </li>
           </Link>
+          <Link href="/intercept/service">
+            <li>
+              intercept route
+            </li>
+          </Link>
         </ul>
     </main>
   );

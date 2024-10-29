@@ -1,4 +1,5 @@
 'use client'
+import Navbar from "@/components/core/navbar";
 import "./globals.css";
 import { SessionProvider } from "next-auth/react";
 
@@ -13,6 +14,7 @@ export default function RootLayout({
         className={` antialiased`}
       >
         <SessionProvider>
+          <Navbar />
           {children}
         </SessionProvider>
       </body>
